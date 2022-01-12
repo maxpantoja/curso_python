@@ -5,5 +5,5 @@
 largura = float(input('Qual a largura em metros de sua parede? '))
 altura = float(input('Qual a altura em metros de sua parede? '))
 area = largura * altura
-print(f'Sua área é de {area} metros quadrados')
-print(f'Sabendo que cada litro de tinta pinta 2 metros quadrados, serão necessários {area / 2} litros, para pintar toda a parede.')
+print(f'Sua área é de {area}m²')
+print(f'Sabendo que cada litro de tinta pinta 2m², serão necessários {area / 2:.2f} litros, para pintar toda a parede.')
