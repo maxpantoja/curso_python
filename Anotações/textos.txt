@@ -1,0 +1,27 @@
+#Fatiamento -> Tento uma variável com textos chamada "frase"
+-frase[9] (Oq o código pegará será o algorismo localizado na 9ª casa, lembrando que a contagem começa do zero)
+-frase[9:13] (O código pegará esse intervalo SEM pegar oq estiver na 13º casa) Se eu colocar mais um ":", posso descrever de quanto em quanto eu quero que pule)
+
+#Análise -> Tento uma variável com textos chamada "frase"
+-lean(frase) (Conta a quantidade de caracteres que tem a variável "frase")
+-frase.count('o') (Conta a quantidade de "o" que tem nesta variável. Lembrando que ele diferencia minúsculas e maiúsculas)
+    Colocando vírgulas depois desse valor procurado, eu posso colocar o intervalo que eu quero que ele procure. Ex: frase.count('o', 0, 13) lembrando que o último n conta
+-franse.find('deo') (Irá mostrar em qual mini espaço começa este intervalo) se n existir, ele retornará "-1" como resposta
+-'Curso' in franse (Irá falar se é verdadeiro ou não)
+
+#Transformação -> Tento uma variável com textos chamada "frase"
+-frase.replace('Python', 'Android') (A função irá colocar procurar por "Python" na variável e trocar por "Android")
+-frase.upper() (Colocaria TODAS as letras da variável em maiúsculas)
+-frase.lower() (Colocaria TODAS as letras da variável em minúsculas)
+-frase.capitalize() (Colocaria tudo pra minúsculo e só a PRIMEIRA letra de toda a str em maíscula)
+-frase.title() (Colocaria todas as letras iniciais de quantas palavras tivesse para Maiúculo e todas as outras em minúsculo)
+-frase.strip() (Ele remove espaços desnecessários do início e do final da variável) Posso fazer variantes colocando um 'r' ou um 'l' na frente
+    para remover somente da direita ou da esquerda, respectivamente)
+
+#Divisão -> Tento uma variável com textos chamada "frase"
+-frase.split() (Ele dividirá a str em uma lista com base nos espaços)
+
+#Junção -> Tento uma variável com textos chamada "frase" splitada
+'-'.join(frase) (Ele irá juntar minha lista "frase" colocando um "-" separando elas. Lógico que posso trocar por um " " também
+
+
