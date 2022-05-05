@@ -19,7 +19,7 @@
 # print(frase2.lstrip()) Remove só os espaços da esquerda
 texto = 'Curso em Vídeo Python'
 print(texto[0::2])
-
+'Curso' in texto
 #print(texto.lower().count('o'))
 print(len(texto.strip()))
 print(texto.replace('Python', 'Android'))
